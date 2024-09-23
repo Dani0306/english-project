@@ -10,7 +10,7 @@ const Navbar = () => {
     }
 
   return (
-    <nav className='w-full h-[8vh] sticky top-0 bg-white z-[5000]'>
+    <nav className='w-full h-[8vh] fixed left-0 top-0 bg-white z-[5000]'>
 
         {/* RESPONSIVE NAVBAR */}
 
