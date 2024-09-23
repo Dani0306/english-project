@@ -13,7 +13,7 @@ const Hero = () => {
   })
 
   return (
-    <section id="hero" ref={ref} className='w-full mt-[100px]'>
+    <section id="hero" ref={ref} className='w-full mt-[150px]'>
         <div className={cn("w-full flex flex-col items-center justify-center translate-y-[30px] opacity-0 transition-all duration-1000", inView && "fadeInY")}>
           <h1 className='px-6 lg:px-0 text-center font-bold text-5xl lg:text-7xl text-gray-950 text-wrap'>
               Tu Aliado en <span className='text-blue-600'>Inglés</span>
