@@ -31,7 +31,9 @@ const Footer = () => {
               <a href="https://www.instagram.com/serviciosinglesdaniel/">
                 <img src="/instagram.png" className='size-6 object-cover' alt="instagram" />
               </a>
-              <img src="/facebook.png" className='size-6 object-cover' alt="facebook" />
+              <a href="https://www.facebook.com/profile.php?id=61566505854285">
+                <img src="/facebook.png" className='size-6 object-cover' alt="facebook" />
+              </a>
               <img src="/tiktok.png" className='size-8 object-cover' alt="Tik tok" />
             </div>
           </div>
