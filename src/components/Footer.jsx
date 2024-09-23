@@ -15,7 +15,7 @@ const Footer = () => {
     <footer ref={ref} className='w-full mt-[100px] mb-[40px]'>
         <div className={cn("w-full flex flex-col items-center opacity-0 transition-all duration-1000 space-y-8 px-4", inView && "opacity-100")}>
           <div className='flex w-full lg:w-[80%] item-center justify-between'>
-            <h3 className='text-xl font-bold lg:text-4xl'>Sigueme!</h3>
+            <h3 className='text-xl font-bold lg:text-4xl'>Sígueme!</h3>
             <Button className="flex items-center justify-evenly" variant="default">
               Mas información
               <Info className='size-4 ml-2'/>
